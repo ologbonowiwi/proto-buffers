@@ -6,4 +6,7 @@ message Account {
   bytes thumbnail = 3;
   bool profile_verified = 4;
   float height = 5;
+
+  // this will be a list of phones
+  repeated string phones = 6; 
 }
